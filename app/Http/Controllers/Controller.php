@@ -8,8 +8,8 @@ use Illuminate\Routing\Controller as BaseController;
 
 /**
  * @OA\Info(
- *     title="API kk",
- *     description="xd.",
+ *     title="API simulador de escuela",
+ *     description="Api donde podras ver, editar, crear y eliminar los datos de los estudiantes, profesores y materias, asi como tambien matricular un alumno a una materia.",
  *     version="1.0.0",
  *     @OA\Contact(
  *         email="arturo@arturo.com"

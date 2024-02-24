@@ -1,8 +1,8 @@
 {
     "openapi": "3.0.0",
     "info": {
-        "title": "API kk",
-        "description": "xd.",
+        "title": "API simulador de escuela",
+        "description": "Api donde podras ver, editar, crear y eliminar los datos de los estudiantes, profesores y materias, asi como tambien matricular un alumno a una materia.",
         "contact": {
             "email": "arturo@arturo.com"
         },
