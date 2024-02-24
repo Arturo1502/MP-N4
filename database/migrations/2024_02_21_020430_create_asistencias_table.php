@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('asistencias', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('alumno_id');
+            $table->foreign('alumno_id')->references('id')->on('alumnos')->onDelete('cascade');
+            $table->date('fecha');
+            $table->enum('asistencia', ['A', 'T', 'F']);
             $table->timestamps();
         });
     }

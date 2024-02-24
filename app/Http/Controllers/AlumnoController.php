@@ -409,7 +409,7 @@ class AlumnoController extends Controller
      * )
      */
 
-    public function checkEnrollment($alumnoId, $cursoId)
+    public function showEnrollment($alumnoId, $cursoId)
     {
         // Find the student and the course
         $alumno = Alumno::findOrFail($alumnoId);

@@ -8,8 +8,8 @@ use Illuminate\Routing\Controller as BaseController;
 
 /**
  * @OA\Info(
- *     title="API ESTUDIANTES",
- *     description="API que contiene la data de estudiantes, docentes, cursos y asistecia de los estudiantes.",
+ *     title="API kk",
+ *     description="xd.",
  *     version="1.0.0",
  *     @OA\Contact(
  *         email="arturo@arturo.com"
