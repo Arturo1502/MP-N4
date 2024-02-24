@@ -6,6 +6,22 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 
+/**
+ * @OA\Info(
+ *     title="API ESTUDIANTES",
+ *     description="API que contiene la data de estudiantes, docentes, cursos y asistecia de los estudiantes.",
+ *     version="1.0.0",
+ *     @OA\Contact(
+ *         email="arturo@arturo.com"
+ *     ),
+ *     @OA\License(
+ *         name="Apache 2.0",
+ *         url="https://www.apache.org/licenses/LICENSE-2.0.html"
+ *     ),
+ *     @OA\Server(url="http://127.0.0.1:8000")
+ * )
+ */
+
 class Controller extends BaseController
 {
     use AuthorizesRequests, ValidatesRequests;
